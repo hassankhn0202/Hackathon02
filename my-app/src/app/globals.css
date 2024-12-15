@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+  display:flex ;
+  justify-content:space-between ;
+  align-items:center ;
+  padding:1rem 2rem 1rem 2rem;
+}
+.navbar .head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar .icons{
+  display: flex;
+  gap: 2rem;
+}
+.HeroImage{
+  width: 50rem;
+  height: 63rem;
+}
+.herotext{
+  width: 34em;
+  height: 16rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 6px;
+  line-height: 2rem;
+}
+.herotext h6{
+  font-weight: bold;
+}
+.herotext h3{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #b88e2f;
+}
+.herotext buybttn{
+  background-color: #b88e2f;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  color: white;
+}
+
+
+.footer{
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  gap: 1rem;
+}
+
+.footer input{
+  /* border: none; */
+  outline: none;
+
+}
+
+
+.footer hr {
+  margin: auto;
+  margin-top: 15px;
+  width: 1000px;
+}
+
+.footer .para p{
+  font-weight: 400;
+  position: absolute;
+  left: 13%;
+  padding: 2rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
